@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GOATify</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <div class="container">
+            <div class="logo">
+                <img src="logo.png" alt="GOATify Logo">
+            </div>
+            <h1>Welcome to GOATify</h1>
+            <nav>
+                <ul class="menu">
+                    <li><a href="index.html">Login</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Main Content -->
+    <main>
+        <div class="music-player">
+            <h2>Now Playing: Best Hits</h2>
+            <div class="album-cover">
+                <img id="track-image" src="album1.jpg" alt="Album Cover">
+            </div>
+            <div class="controls">
+                <button id="prev-btn" class="control-btn"><i class="fa fa-backward"></i></button>
+                <button id="play-btn" class="control-btn"><i class="fa fa-play"></i></button>
+                <button id="pause-btn" class="control-btn hide"><i class="fa fa-pause"></i></button>
+                <button id="next-btn" class="control-btn"><i class="fa fa-forward"></i></button>
+            </div>
+            <p id="track-title">Track 1 - Artist Name</p>
+            <audio id="audio-player" src="track1.mp3"></audio>
+        </div>
+    </main>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <p>Designed by GG &copy; 2024</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

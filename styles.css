@@ -1,0 +1,129 @@
+/* Global Styles */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #181818;
+    color: #fff;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+/* Header Styles */
+header {
+    background-color: #000;
+    color: white;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+}
+
+header .logo img {
+    width: 150px;
+    height: auto;
+    margin-right: 20px;
+}
+
+header h1 {
+    font-size: 1.8rem;
+    margin: 0;
+}
+
+header nav {
+    margin-left: auto;
+}
+
+header nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+header nav ul li {
+    display: inline-block;
+    margin: 0 15px;
+}
+
+header nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-size: 1.1rem;
+}
+
+header nav ul li a:hover {
+    color: #1db954;
+}
+
+/* Music Player Styles */
+main {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+.music-player {
+    text-align: center;
+    background-color: #282828;
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.5);
+    max-width: 400px;
+    width: 100%;
+}
+
+.music-player h2 {
+    font-size: 1.5rem;
+    margin-bottom: 20px;
+}
+
+.album-cover img {
+    width: 100%;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+.controls {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.control-btn {
+    background-color: transparent;
+    border: none;
+    color: white;
+    font-size: 24px;
+    cursor: pointer;
+    padding: 10px;
+    transition: color 0.3s;
+}
+
+.control-btn:hover {
+    color: #1db954;
+}
+
+#track-title {
+    font-size: 1.1rem;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+/* Footer Styles */
+footer {
+    background-color: #000;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    font-size: 1rem;
+}

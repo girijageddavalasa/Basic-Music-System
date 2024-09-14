@@ -1,0 +1,99 @@
+/* Global Styles */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #181818;
+    color: #fff;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+}
+
+/* Social Media Icons */
+.social-media {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    display: flex;
+    gap: 15px;
+}
+
+.social-media a {
+    color: #fff;
+    font-size: 24px;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+.social-media a:hover {
+    color: #1db954;
+}
+
+/* Container Styles */
+.container {
+    background-color: #282828;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    max-width: 400px;
+    width: 100%;
+    text-align: center;
+}
+
+.photo img {
+    width: 100px;
+    height: auto;
+    border-radius: 50%;
+    margin-bottom: 20px;
+}
+
+.loginname p {
+    font-size: 2rem;
+    margin: 0;
+    font-weight: bold;
+    color: #fff;
+}
+
+.inputs {
+    margin-top: 20px;
+}
+
+.inputs label {
+    display: block;
+    font-size: 1rem;
+    margin-bottom: 5px;
+    color: #aaa;
+}
+
+.inputs input {
+    width: calc(100% - 20px);
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #444;
+    border-radius: 5px;
+    background-color: #333;
+    color: #fff;
+    font-size: 1rem;
+}
+
+.inputs input::placeholder {
+    color: #888;
+}
+
+.inputs a {
+    display: inline-block;
+    padding: 10px 20px;
+    color: #fff;
+    background-color: #1db954;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 1rem;
+    transition: background-color 0.3s;
+}
+
+.inputs a:hover {
+    background-color: #1ed760;
+}
