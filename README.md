@@ -1,7 +1,7 @@
 
 # GOATify Music Player
 
-GOATify is a modern, web-based music player inspired by popular streaming services. It features a sleek user interface, a list of tracks, and controls for playing, pausing, skipping, and managing your music experience. This project is designed to provide an enjoyable listening experience with easy navigation and interactive features.
+GOATify is a modern, web-based music player inspired by popular streaming services. It features a sleek user interface with controls for playing, pausing, skipping, and managing your music experience. This project is designed to provide an enjoyable listening experience with easy navigation and interactive features.
 
 ## Features
 
